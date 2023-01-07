@@ -131,6 +131,7 @@ header {
     padding-top: 85px;
     margin-bottom: 130px;
 }
+
 .positive-mindset h3 {
     font-weight: 700;
     font-size: 40px;
@@ -138,12 +139,14 @@ header {
     color: #FFFFFF;
     margin-bottom: 24px;
 }
+
 /* footer design */
 footer {
     background-color: #151414;
     color: #F8F8F8;
 
 }
+
 .footer {
     padding-top: 5%;
     padding-bottom: 5%;
@@ -155,28 +158,31 @@ footer {
 
 .footer h3 {
     font-weight: 700;
-font-size: 45px;
-line-height: 53px;
+    font-size: 45px;
+    line-height: 53px;
     margin-bottom: 16px;
 }
 
 .footer p {
     line-height: 26px;
-color: #FFFFFF;
-margin-bottom: 24px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
 }
+
 .footer .future {
     padding-right: 20%;
 }
+
 .socials {
     display: flex;
     gap: 3%;
 }
+
 .footer .contact h5 {
     font-weight: 600;
-font-size: 25px;
-line-height: 29px;
-margin-bottom: 31px;
+    font-size: 25px;
+    line-height: 29px;
+    margin-bottom: 31px;
 }
 
 .contact input {
@@ -187,17 +193,61 @@ margin-bottom: 31px;
     height: 64px;
     font-size: 18px;
     padding-left: 21px;
-line-height: 21px;
-margin-bottom: 16px;
-width: 325px;
+    line-height: 21px;
+    margin-bottom: 16px;
+    width: 325px;
 }
+
 .btn-secondary {
     height: 64px;
     font-weight: 600;
-font-size: 20px;
-line-height: 24px;
-color: #FFFFFF;
-background: #005FAC;
-border-radius: 8px;
-width: 170.11px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #005FAC;
+    border-radius: 8px;
+    width: 170.11px;
+}
+
+/* extra-section-design */
+
+.accountability-partner {
+
+    background-color: #005FAC;
+    text-align: center;
+    color: #F3F3F3;
+    padding-bottom: 5%;
+}
+
+.accountability-partner h3 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 16px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.accountability-partner h4 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 53px;
+}
+
+.accountability-partner-card img {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.accountability-partner-card {
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    gap: 5%;
+}
+
+.accountability-partner-card p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
 }
