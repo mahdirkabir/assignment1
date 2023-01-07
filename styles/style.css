@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary {
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    border-radius: 5px;
+    border: none;
+    padding: 20px 25px;
+}
+
+/* header style */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    gap: 10%;
+}
+
+.header-positioning-substitute {
+    width: 50%;
+}
+
+.header {
+    text-align: right;
+    width: 50%;
+    padding: 10%;
+    margin: 10%;
+}
+
+.header h1 {
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    line-height: 76px;
+}
+
+.header p {
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+/* my failures section style */
+.my-failures {
+    gap: 10%;
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+}
+
+.my-failures h3 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.my-failures p {
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+/* My plans style */
+
+.my-plans h3 {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.my-plans h4 {
+
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #151414;
+    margin-bottom: 16px;
+}
+
+.my-plans p {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
+}
+
+.my-plans-card {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-bottom: 130px;
+}
+
+/* positive mindset */
+
+
+.positive-mindset-card {
+    background-image: url(../images/gradient1.png), url(../images/watch.png);
+    background-repeat: no-repeat;
+    padding-left: 3%;
+    padding-top: 3%;
+    border-radius: 8px;
+    margin-left: 20%;
+    height: 300px;
+    padding-top: 85px;
+    margin-bottom: 130px;
+}
+.positive-mindset h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+/* footer design */
+footer {
+    background-color: #151414;
+    color: #F8F8F8;
+
+}
+.footer {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    margin-left: 18%;
+    margin-right: 18%;
+    gap: 20%;
+}
+
+.footer h3 {
+    font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+    margin-bottom: 16px;
+}
+
+.footer p {
+    line-height: 26px;
+color: #FFFFFF;
+margin-bottom: 24px;
+}
+.footer .future {
+    padding-right: 20%;
+}
+.socials {
+    display: flex;
+    gap: 3%;
+}
+.footer .contact h5 {
+    font-weight: 600;
+font-size: 25px;
+line-height: 29px;
+margin-bottom: 31px;
+}
+
+.contact input {
+    color: #F3F3F3;
+    background-color: #151414;
+    border: #FFFFFF 1px solid;
+    border-radius: 8px;
+    height: 64px;
+    font-size: 18px;
+    padding-left: 21px;
+line-height: 21px;
+margin-bottom: 16px;
+width: 325px;
+}
+.btn-secondary {
+    height: 64px;
+    font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+background: #005FAC;
+border-radius: 8px;
+width: 170.11px;
+}
